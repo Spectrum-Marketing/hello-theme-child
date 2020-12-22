@@ -39,6 +39,26 @@ function hello_child_register_required_plugins() {
 	 */
 	$plugins = array(
 		array(
+			'name'     => 'Advanced Access Manager',
+			'slug'     => 'advanced-access-manager',
+			'required' => false,
+		),
+		array(
+			'name'     => 'Elementor Pro Website Builder',
+			'source'     => get_stylesheet_directory().'/lib/plugins/elementor-pro.zip',
+			'required' => false,
+		),
+		array(
+			'name'     => 'Gravity Forms',
+			'source'     => get_stylesheet_directory().'/lib/plugins/gravityforms.zip',
+			'required' => false,
+		),
+		array(
+			'name'     => 'Gravity Forms',
+			'source'     => get_stylesheet_directory().'/lib/plugins/updraftplus.zip',
+			'required' => false,
+		),
+		array(
 			'name'     => 'Elementor Website Builder',
 			'slug'     => 'elementor',
 			'required' => false,
