@@ -54,7 +54,7 @@ function hello_child_register_required_plugins() {
 			'required' => false,
 		),
 		array(
-			'name'     => 'Gravity Forms',
+			'name'     => 'Updraft Plus',
 			'source'     => get_stylesheet_directory().'/lib/plugins/updraftplus.zip',
 			'required' => false,
 		),
