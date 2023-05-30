@@ -43,24 +43,24 @@ function hello_child_register_required_plugins() {
 			'slug'     => 'advanced-access-manager',
 			'required' => false,
 		),
+		// array(
+		// 	'name'     => 'Elementor Pro Website Builder',
+		// 	'source'     => get_stylesheet_directory().'/lib/plugins/elementor-pro.zip',
+		// 	'required' => false,
+		// ),
 		array(
-			'name'     => 'Elementor Pro Website Builder',
-			'source'     => get_stylesheet_directory().'/lib/plugins/elementor-pro.zip',
-			'required' => false,
-		),
-		array(
-			'name'     => 'Gravity Forms',
-			'source'     => get_stylesheet_directory().'/lib/plugins/gravityforms.zip',
-			'required' => false,
-		),
-		array(
-			'name'     => 'Updraft Plus',
-			'source'     => get_stylesheet_directory().'/lib/plugins/updraftplus.zip',
+			'name'     => 'Better Search Replace',
+			'slug'     => 'better-search-replace',
 			'required' => false,
 		),
 		array(
 			'name'     => 'Elementor Website Builder',
 			'slug'     => 'elementor',
+			'required' => false,
+		),
+		array(
+			'name'     => 'Gravity Forms',
+			'source'   => get_stylesheet_directory().'/lib/plugins/gravityforms.zip',
 			'required' => false,
 		),
 		array(
@@ -71,6 +71,11 @@ function hello_child_register_required_plugins() {
 		array(
 			'name'     => 'SVG Support',
 			'slug'     => 'svg-support',
+			'required' => false,
+		),
+		array(
+			'name'     => 'UpdraftPlus WordPress Backup Plugin',
+			'slug'     => 'updraftplus',
 			'required' => false,
 		),
 		array(
